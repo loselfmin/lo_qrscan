@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await LoQrscan.platformVersion, '42');
+    expect(await LoQrscan.loScan, '42');
   });
 }
